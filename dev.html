@@ -1,12 +1,3 @@
-<?php
-session_start();
-if (isset($_COOKIE['id']) && isset($_COOKIE['username']) && isset($_COOKIE['tz'])) {
-	$cookie_id = $_COOKIE['id'];
-	$cookie_username = $_COOKIE['username'];
-	$_SESSION['id'] = $cookie_id;
-	$_SESSION['username'] = $cookie_username;
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
