@@ -1,4 +1,4 @@
-<?php 
-    header("Location:http://localhost/buddyBonds_backup/");
+<?php
+    header("Location:http://localhost/buddyBonds/");
 	exit();
 ?>
