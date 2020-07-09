@@ -1,0 +1,99 @@
+#navbar_brand {
+	font-size:22px;
+	padding:10px;
+}
+.navbar-toggler-icon {
+	font-size:30px;
+	position:relative;
+	top:4px;
+	left:10px;
+}
+#sc_nav {
+	font-size:30px;
+	font-family:'Lobster Two',serif;
+}
+.navbar {
+	background:linear-gradient(#cc2b5e,#753a88);
+}
+header {
+	background:linear-gradient(#753a88, #cc2b5e);
+	background-attachment:fixed;
+	padding:200px;
+}
+#hdr {
+	font-family:'Arvo',serif;
+	font-size:60px;
+}
+#mhdr {
+	font-size:22px;
+}
+.container {
+	padding:50px;
+} 
+.chdr {
+	font-family:'Open Sans',serif;
+	font-size:22px;
+	padding:8px;
+	border-top:2px solid #A9A9A9;
+	border-bottom:2px solid #A9A9A9;
+}
+.msg {
+	font-size:20px;
+	padding:15px;
+}
+#made_msg {
+	font-size:21px;
+	padding:10px;
+}
+footer {
+	background-color:#060606;
+	padding:5px;
+}
+#wmsg {
+	font-family:'Macondo',serif;
+	font-size:18px;
+}
+#dmsg {
+	font-size:16px;
+	font-family:'Arvo',serif;
+}
+@media only screen and (max-width:768px) {
+	header  {
+		padding:37px;
+	}
+	#hdr {
+		font-size:32px;
+	}
+	#mhdr {
+		font-size:20px;
+	}
+	.container {
+		padding-top:10px;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	.msg {
+		font-size:18px;
+	}
+	#note {
+		font-size:14px;
+	}
+	.navbar {
+		padding:2px;
+	}
+	#made_msg {
+		font-size:18px;
+		padding:3px;
+	}
+	#wmsg {
+		font-size:16px;
+	}
+	#dmsg {
+		font-size:14px;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1020px) {
+	header {
+		padding:150px;
+	}
+}

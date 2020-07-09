@@ -1,0 +1,68 @@
+.enclose_post {
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+
+.post_img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 340px;
+    max-height: 340px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -webkit-transition: transform 1s;
+    transition: transform 1s;
+}
+
+.post_img:hover {
+    -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari 3-8 */
+    transform: scale(1.15);
+    border-radius: 15px;
+}
+
+.post_info {
+    padding: 10px;
+}
+
+.post_bud {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.post_un {
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 3px;
+    font-family: var(--osff);
+}
+
+.carousel-caption {
+    display: none;
+    position: absolute;
+    bottom: -10px;
+}
+
+.btn-basics {
+    padding: 9px 0 9px 0;
+    font-family: var(--fcff);
+    color: rgb(136, 153, 166);
+    font-size: 17px;
+}
+
+.bb_bo:hover {
+    color: #ff4d4d;
+}
+
+.bb_co:hover {
+    color: #00BFFF;
+}
+
+.bb_sh:hover {
+    color: #00FF7F;
+}
+
+.bb_bk:hover {
+    color: #FF00FF;
+}

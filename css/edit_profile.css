@@ -1,0 +1,171 @@
+body {
+	background:radial-gradient(#DCDCDC,white);
+}
+#edit_pro_card {
+    margin: 10px 180px 30px 160px;
+}
+#edit_header {
+	font-size:28px;
+	font-family:'Roboto', serif;
+}
+#user_name {
+	font-size:20px;
+}
+#edit_msg {
+	font-size:18px;
+}
+#edit_profile_form {
+	margin-top:15px;
+	margin-bottom:15px; 
+}
+.labels {
+	padding:3px;
+	font-size:17px;
+	display:none;
+}
+/* for checkUsername.php username check */
+#usercheck {
+	font-size:25px;
+	margin-top:5px;
+	position:relative;
+	left:3px;
+}
+.form-check-label {
+	font-size:18px;
+}
+.error {
+	color:red;
+}
+#err_msg {
+	font-size:24px;
+}
+#could_not_update {
+	font-size:24px;
+}
+#success {
+	font-size:25px;
+}
+#edit_success {
+	padding:5px;
+	margin-bottom:10px;
+}
+#edit_msg_err {
+	font-size:24px;
+}
+#your_profile_link {
+	text-decoration:none;
+}
+.err {
+	margin-top:5px;
+	font-size:25px;
+	position:relative;
+	left:3px;
+}
+#done_btn {
+	margin-top:15px;
+}
+#spnr1 {
+  	position:relative;
+  	left:6px;
+  	top:-5px;
+ 	display:none;
+}
+#spnr_img1 {
+  	width:40px;
+  	height:40px;
+}
+#description {
+	overflow:hidden;
+}
+@media only screen and (max-width:768px) {
+	.labels {
+		padding:0;
+		font-size:15px;
+	}
+	.inputs {
+		height:30px;
+	}
+	#usercheck {
+		font-size:23px;
+		margin-top:2px;
+	}
+	#edit_pro_card {
+		margin-left:5px;
+		margin-right:5px;
+		margin-top:5px;
+	}
+	#edit_header {
+		font-size:22px;
+	}
+	#user_name {
+		font-size:18px;
+	}
+	#edit_msg {
+		font-size:16px;
+	}
+	.err {
+		font-size:23px;
+		margin-top:3px;
+	}
+	#load_buddypic_btn {
+		width:180px;
+		height:35px;
+	}
+	.form-check {
+		font-size:17px;
+	}
+	#success {
+		font-size:20px;
+	}
+	#edit_success {
+		padding:5px;
+		margin-bottom:145px;
+	}
+	#could_not_update {
+		font-size:18px;
+	}
+	#edit_msg_err {
+		font-size:18px;
+	}
+	#done_btn {
+		width:80px;
+		height:35px;
+		margin-top:10px;
+	}
+	#err_msg {
+		font-size:18px;
+	}
+	#eml_msg {
+		font-size:13px;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1020px) {
+	#edit_pro_card {
+		margin-left:10px;
+		margin-right:10px;
+		margin-top:0;
+	}
+	#user_name {
+		font-size:20px;
+	}
+	#edit_msg {
+		font-size:18px;
+	}
+	#edit_header {
+		font-size:28px;
+	}
+	#load_buddypic_btn {
+		width:180px;
+		height:35px;
+	}
+	#edit_success {
+		padding:8px;
+		margin-bottom:292px;
+	}
+	#err_msg {
+		font-size:22px;
+	}
+	.labels {
+		font-size:16px;
+	}
+}

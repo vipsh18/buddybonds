@@ -1,0 +1,129 @@
+#search {
+    position: relative;
+    left: -6px;
+}
+#ntfs_div {
+	margin-left:160px;
+	margin-right:170px;
+	padding:10px 5px 10px 5px;
+}
+.msg {
+	font-family:'Open Sans',serif;
+	font-size:19px;
+	padding-bottom:4px;
+}
+.hdrs {
+	font-size:19px;
+	padding:6px 6px;
+	border-bottom :2px solid #dcdcdc;
+	font-family:'Open Sans',serif;
+	cursor:pointer;
+}
+.close_divs {
+	font-size:16px;
+	padding:1px 8px 1px 8px;
+	border:1px solid lavender;
+	float:right;
+	cursor:pointer;
+}
+.close_divs:hover {
+	background-color:lavender;
+}
+.ntfs_divs {
+	padding:5px 0px 5px;
+}
+.ntfs_row {
+	padding:3px 5px 3px 5px;
+	border-bottom:1px solid lavender;
+	border-radius:5px;
+	margin-bottom:2px;
+}
+.ntfs_img {
+	width:45px;
+	height:45px;
+	object-fit:cover;
+}
+.ntfs_link {
+	font-size:18px;
+	margin-left:6px;
+}
+a.ntfs_link {
+	text-decoration:none;
+}
+.noti_time {
+	font-size:16px;
+	float:right;
+	margin-top:25px;
+}
+#no_ntfs_img {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:100px;
+	height:100px;
+}
+#pn_div_open {
+	display:none;
+}
+#br_hdr_badge,#pn_hdr_badge,#pg_hdr_badge {
+	font-size:14px;
+	position:relative;
+	top:-1px;
+}
+@media only screen and (max-width:768px) {
+	#ntfs_div {
+		margin-left:0px;
+		margin-right:0px;
+		padding:2px;
+	}
+	#no_ntfs_img {
+		width:70px;
+		height:70px;
+	}
+	.noti_time {
+		font-size:13px;
+		float:none;
+		margin-left:8px;
+		margin-top:2px;
+	}
+	.msg {
+		font-size:15px;
+		padding-bottom:2px;
+	}
+	.hdrs {
+		font-size:16px;
+		padding:3px 3px;
+	}
+	.close_divs {
+		font-size:14px;
+		padding:1px 6px 1px 6px;
+	}
+	.ntfs_divs {
+		padding:3px 0px 3px;
+	}
+	.ntfs_row {
+		padding:1px 3px 1px 3px;
+		margin-bottom:2px;
+	}
+	.ntfs_img {
+		width:34px;
+		height:34px;
+	}
+	.ntfs_link {
+		font-size:15px;
+		margin-left:4px;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1020px) {
+	#ntfs_div {
+		margin-left:0px;
+		margin-right:0px;
+		padding:2px;
+	}
+}
+@media only screen and (min-width:1020px) and (max-width:1100px) {
+	#ntfs_div {
+		margin-left:5px;
+		margin-right:5px;
+	}
+}

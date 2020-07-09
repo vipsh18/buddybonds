@@ -1,0 +1,170 @@
+.col-lg-6 {
+	background: #5eb7b7;
+	display: flex;
+}
+.col-lg-6 > * {
+	margin: auto;
+}
+
+#main_row {
+  	border-radius: 10px;
+  	height: 100%;
+}
+
+.carousel-inner img {
+	object-fit: contain;
+  	min-width: 500px;
+  	min-height: 530px;
+  	max-width: 500px;
+  	max-height: 530px;
+}
+
+#fp_div {
+	padding:7px;
+	font-size: 13px;
+}
+
+#sc_hdr {
+	font-size:50px;
+  	font-family: 'Lobster Two', serif;
+}
+
+footer {
+  	font-family: 'Open Sans', serif;
+  	background: #f8f8f8;
+  	bottom: 0px;
+    position: absolute;
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.footer_ul {
+  	margin-bottom: 0px;
+  	font-size: 13px;
+  	display: table;
+	width: 100%;
+	padding: 10px 0 10px 0;
+	list-style: none;
+}
+
+.footer_ul li {
+	display: table-cell;
+	text-align: center;
+}
+
+.footer_ul a, .footer_ul a:hover {
+	color: #3333ff;
+	display: block;
+}
+
+#reg_card {
+  	display: none;
+}
+
+#spnr {
+  	display: none;
+  	width: 28px;
+  	height: 28px;
+}
+
+a:hover {
+  	text-decoration: none;
+}
+
+.btn-bb:hover {
+  	color: #396362;
+  	font-weight: bolder;
+  	background: #f6f6f6;
+  	border: 1px solid #396362;
+}
+
+.form-group {
+  	margin-bottom: 10px;
+}
+
+#getTheApp {
+  	margin-top: 40px;
+}
+
+#getTheApp img {
+  	margin: 5px 0;
+}
+
+input::placeholder {
+    text-align: center;
+    font-family: "Fira Code", serif;   
+}
+
+.placeholder_pseudo_class {
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.placeholder_pseudo_class::placeholder {
+	font-weight: bold;
+}
+
+.err {
+  	margin-left: 3px;
+}
+
+.bg_grey_btn {
+	padding:15px;
+	background:#f2f2f2;
+	width:300px;
+	margin:0 auto;
+	display:inline-block;
+	font-size: 13px;
+	border-radius: 5px;
+}
+
+#suf_message {
+	font-size:12px;
+	margin:20px auto;
+	width: 300px;
+}
+
+#suf_message a {
+	color: #808080;
+}
+
+.alert-info {
+	font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  	#form_cards {
+    	padding: 60px 0;
+    	background: #ffffff;
+  	}
+
+  	.btn-bb {
+    	width: 300px;
+    	background: #4b8e8d;
+    	color: #f6f6f6;
+  	}
+
+	input {
+	    border: 1px solid #dadada;
+	    padding: 6px;
+	    outline: none;
+	    font-size: 14px;
+	    -webkit-border-radius: 3px;
+	    -moz-border-radius: 3px;
+	    border-radius: 3px;
+	    width: 300px;
+	    font-family: "Fira Code", serif; 
+	}
+
+	#homepage {
+	    height: 100vh;
+	    overflow: hidden;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1020px) {
+ 	#ss_col {
+    	display: inline;
+  	}
+}

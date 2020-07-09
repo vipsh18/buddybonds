@@ -1,0 +1,301 @@
+#container {
+	margin-left:0px;
+}
+.col-lg-3,.col-lg-6 {
+	border-right:2px solid #DCDCDC;
+}
+#sbtc_div, #cg_div, #chat_div {
+	overflow-x:hidden;
+	overflow-y:auto;
+} 
+.fas_nobuddy {
+	font-size:70px;
+	display:block;
+	margin-top:150px;
+	text-align:center;
+}
+.fas_msg {
+	font-size:19px;
+	padding-top:15px;
+	padding-bottom:11px;
+	margin-left:6px;
+}
+.msg {
+	font-size:20px;
+} 
+.msg_cntr {
+	margin-top:12px;
+	padding-bottom:2px;
+	font-family:'Open Sans',serif;
+}
+#chats_hdr {
+	font-size:19px;
+	padding:6px;
+	font-family:'Open Sans',serif;
+}
+#scf {
+	padding-top:5px;
+}
+#search_chat {
+	border-radius:25px;
+}
+#search_chat_fas {
+	font-size:15px;
+	position:relative;
+	top:11px;
+	color:grey;
+	left:63px;
+	z-index:5;
+}
+#search_chat::placeholder {
+	text-align:center;
+	opacity:1;
+	font-family:'Open Sans',serif;
+	font-size:14px;
+}
+#search_chat:invalid,#search_chat:-moz-ui-invalid {
+	border:none;
+	border:1px solid #DCDCDC;
+	outline:none;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+#search_chat:focus {
+	outline:none;
+    border-color:#9ecaed;
+    box-shadow:0 0 10px #9ecaed;
+    -moz-box-shadow:0 0 10px #9ecaed;
+    -webkit-box-shadow:0 0 10px #9ecaed;
+}
+#search_chat:focus::placeholder {
+	text-align:left;
+}
+#wow {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:90px;
+	display:block;
+	width:200px;
+	height:200px;
+}
+.inner_msg {
+	font-size:18px;
+}
+.inner_msg1 {
+	font-size:18px;
+	margin-top:10px;
+}
+a.bd_row {
+	text-decoration:none;
+}
+.bd_row {
+	padding:7px;
+	border-bottom:1px solid lavender;
+	cursor:pointer;
+}
+.bd_img {
+	width:50px;
+	height:50px;
+	object-fit:cover;
+}
+.bd_un {
+	font-size:18px;
+	margin-top:10px;
+	margin-left:6px;
+}
+.bd_img_cl {
+	width:40px;
+	height:40px;
+	object-fit:cover;
+}
+.bd_un_cl {
+	font-size:17px;
+	margin-left:6px;
+	margin-top:6px;
+}
+.bd_last_msg {
+	font-size:16px;
+	margin-top:7px;
+}
+.bd_new_msgs {
+	height:18px;
+	margin-top:10px;
+	margin-left:4px;
+}
+#srch_sugg {
+	position:fixed; 
+	width:312px;
+	display:none;
+	background-color:white;
+	z-index:2; 
+	border:1px solid #A9A9A9;
+	border-radius:4px;
+	box-shadow:4px 4px 4px grey;
+}
+#srch_spnr {
+	position:relative;
+	left:-5px;
+	height:22px;
+	top:2px;
+	width:22px;
+	display:none;
+}
+#srch_spnr_img {
+	width:30px;
+	height:30px;
+}
+.srch_row {
+	padding:8px;
+	border-bottom:1px solid lavender;
+}
+.srch_fn {
+	font-size:16px;
+	margin-top:3px;
+	margin-left:4px;
+}
+.srch_un {
+	float:right;
+	font-size:16px;
+	margin-top:4px; 
+}
+.srch_img {
+	width:35px;
+	height:35px;
+	object-fit:cover;
+}
+a.srch_fn,a.srch_un {
+	text-decoration:none;
+}
+.grp_checkboxes {
+	display: none;
+}
+#selected_participants_div {
+	font-size: 16px;
+	border-top: 1px solid lavender;
+	border-bottom: 1px solid lavender;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#create_grp_btn {
+	float: right;
+	position: relative;
+	top: -2px;
+}
+#grp_tobemade_name {
+	border: none;
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 16px;
+	height: 30px;
+	display: none;
+}
+#grp_tobemade_name::placeholder {
+	font-weight: bold;
+	text-align: center;
+}
+#grp_tobemade_name:focus::placeholder {
+	text-align: left;
+}
+#grp_tobemade_pic {
+	display: none;
+}
+#grp_tobemade_picbtn {
+	margin-bottom: 6px;
+	display: none;
+}
+@media only screen and (max-width:768px) {
+	#cg_div,.msg_cntr,#sbtc_list {
+		display:none;
+	}
+	.col-lg-3,.col-lg-6 {
+		border-right:none;
+	}
+	#chats_hdr {
+		font-size:17px;
+		padding:5px;
+	}
+	#chat_div {
+		position:relative;
+		top:-13px;
+	}
+	#search_chat {
+		width:100%;
+	}
+	#search_chat_fas {
+		display:none;
+	}
+	#wow {
+		margin-top:70px;
+	}
+	.msg {
+		font-size:18px;
+	}
+	#srch_sugg {
+		position:static;
+	}
+	.bd_row {
+		padding:5px;
+	}
+	.bd_img_cl {
+		width:35px;
+		height:35px;
+	}
+	.bd_un_cl {
+		font-size:16px;
+		margin-left:4px;
+		margin-top:4px;
+	}
+	.bd_last_msg {
+		font-size:15px;
+		margin-top:5px;
+	}
+	.bd_new_msgs {
+		height:16px;
+		margin-top:9px;
+		margin-left:3px;	
+	}
+@media only screen and (min-width:768px) and (max-width:1020px) {
+	.col-lg-3,.col-lg-6 {
+		border-right:none;
+	}
+}
+@media only screen and (min-width:1020px) and (max-width:1100px) {
+	#container {
+		margin-left:0px;
+	}
+	#chat_div {
+		min-height:768px;
+	}
+	.fas_nobuddy {
+		font-size:50px;
+		margin-top:120px;
+	}
+	.fas_msg {
+		font-size:18px;
+		padding-top:13px;
+	}	
+	#search_chat::placeholder {
+		font-size:10px;
+	}
+	.msg {
+		font-size:19px;
+	}	 
+	#wow {
+		margin-top:80px;
+	}
+	.inner_msg,.inner_msg1 {
+		font-size:17px;
+	}
+	.bd_row {
+		padding:5px;
+	}
+	.bd_img {
+		width:35px;
+		height:35px;
+	}
+	.bd_un {
+		font-size:17px;
+		padding-top:8px;
+	}	
+}
